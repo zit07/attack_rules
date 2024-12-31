@@ -1,0 +1,36 @@
+' OR '1'='1;High
+" OR "1"="1;High
+'--;High
+"--;High
+#;High
+; DROP TABLE;High
+; DELETE FROM;High
+; INSERT INTO;High
+; UPDATE;High
+UNION SELECT;High
+SELECT *;High
+SELECT name FROM;High
+xp_cmdshell;High
+EXEC xp_;High
+AND 1=1;Medium
+OR 1=1;Medium
+HAVING 1=1;Medium
+LIKE 'a%';Low
+%27%20OR%20%271%27%3D%271;High
+%22%20OR%20%221%22%3D%221;High
+%27--;High
+%22--;High
+%23;High
+%3B%20DROP%20TABLE;High
+%3B%20DELETE%20FROM;High
+%3B%20INSERT%20INTO;High
+%3B%20UPDATE;High
+UNION%20SELECT;High
+SELECT%20%2A;High
+SELECT%20name%20FROM;High
+xp_cmdshell;High
+EXEC%20xp_;High
+AND%201%3D1;Medium
+OR%201%3D1;Medium
+HAVING%201%3D1;Medium
+LIKE%20%27a%25%27;Low

@@ -1,0 +1,14 @@
+../;Medium
+..\;Medium
+/etc/passwd;High
+/var/www/;Medium
+C:\windows\;Medium
+/proc/self/;High
+boot.ini;Medium
+/../../;Medium
+%2e%2e%2f;Medium
+%252e%252e%252f;Medium
+../../etc/shadow;High
+../../../../;High
+../../windows/;Medium
+../../boot.ini;Medium

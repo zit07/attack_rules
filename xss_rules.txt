@@ -1,0 +1,14 @@
+<script>;Low
+<iframe>;Low
+<svg>;Low
+onerror=;Medium
+onload=;Medium
+alert\(;Low
+document\.cookie;Medium
+</;Low
+<marquee>;Low
+eval\(;Medium
+window\.location;Medium
+javascript:;Medium
+vbscript:;High
+data:text/html;High
