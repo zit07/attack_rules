@@ -12,3 +12,4 @@ window\.location;Medium
 javascript:;Medium
 vbscript:;High
 data:text/html;High
+hii;hii
